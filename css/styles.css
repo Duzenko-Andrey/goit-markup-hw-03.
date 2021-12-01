@@ -26,6 +26,7 @@ ul,ol{
 }
 /* Шапка страницы */
 .header{
+border-bottom: 1px solid #ECECEC;
 
 }
 .logo{
@@ -102,14 +103,9 @@ text-align: center;
 background: #2F303A;
 width: 1600px;
 height: 600px;
-
-
 }
+
 .hero-title{
-
-
-
-
 margin-top: 0;
 margin-bottom: 30px;
 font-weight: 900;
@@ -119,10 +115,9 @@ color: var(--primary-white-color);
 letter-spacing: 0.06em;
 text-transform: uppercase;
 }
+
 .hero-button{
-
 align-items: center;
-
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 cursor: pointer;
@@ -172,7 +167,6 @@ color: var(--text-secondary);
 .work-title{
 margin-top: 0;
 margin-bottom: 50px;
-
 font-weight: bold;
 font-size: 36px;
 line-height: 1.16;
@@ -180,13 +174,14 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--text-primary);
 }
+
 .work-container{
 margin-top: 0;
 margin-bottom: 0;
 }
+
+
 /* Наша команда */
-
-
 .command-container{
 margin-top: 0;
 margin-bottom: 0;
@@ -251,6 +246,7 @@ color: var(--primary-white-color);
 .main-button{
 font-family: Roboto;    
 background: #F5F4FA;
+padding: 6px 22px;
 border-radius: 4px;    
 font-weight: 500;
 font-size: 16px;
@@ -272,10 +268,13 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--primary-white-color);
 }
-.title-promo{
-text: hid
+.main-btn{
+margin-top: 0;
+margin-bottom: 34px;
 }
 .main-title-list{
+  margin-top: 0;
+margin-bottom: 4px;
 font-weight: bold;
 font-size: 18px;
 line-height: 2.0;
@@ -283,8 +282,14 @@ letter-spacing: 0.06em;
 color: var(--text-primary);
 }
 .main-title-text{
+margin-top: 0;
+margin-bottom: 0;
 font-size: 16px;
 line-height: 1.9;
 letter-spacing: 0.03em;
 color: var(--text-secondary);
+}
+.main-container{
+margin-top: 0;
+margin-bottom: 0;
 }
